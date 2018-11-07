@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "repo-baseline": [
     {
@@ -30,5 +32,17 @@
     }
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "repo-baseline-codeclimate-badges": "^1.0.5",
+    "repo-baseline-david-dm": "^1.0.2",
+    "repo-baseline-semantic-release": "0.0.0",
+    "repo-baseline-travis": "^1.0.6",
+    "travis-deploy-once": "^5.0.9",
+    "semantic-release": "^15.10.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oliverlorenz/repo-baseline-ruleset-plugins.git"
+  }
 }
