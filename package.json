@@ -37,7 +37,7 @@
     "repo-baseline-codeclimate-badges": "^1.0.5",
     "repo-baseline-david-dm": "^1.0.2",
     "repo-baseline-semantic-release": "0.2.0",
-    "repo-baseline-travis": "^1.0.6",
+    "repo-baseline-travis": "^1.1.0",
     "travis-deploy-once": "^5.0.9",
     "semantic-release": "^15.10.8"
   },
