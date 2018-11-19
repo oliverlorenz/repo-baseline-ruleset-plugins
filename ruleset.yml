@@ -11,7 +11,7 @@ repo-baseline:
 - name: repo-baseline-david-dm
 - name: repo-baseline-semantic-release
 - name: repo-baseline-json-check-schema
-  options:
+  options: 
     files:
       - path: package.json
         schema: 
