@@ -1,45 +1,27 @@
 {
   "name": "repo-baseline-ruleset-plugins",
   "version": "0.0.1",
-  "description": "",
+  "description": "plugin for repo-baseline. Ruleset for all repo-baseline plugins",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },
-  "repo-baseline": [
-    {
-      "name": "repo-baseline-file-available",
-      "options": {
-        "files": [
-          "README.md",
-          ".gitignore"
-        ]
-      }
-    },
-    {
-      "name": "repo-baseline-codeclimate-badges"
-    },
-    {
-      "name": "repo-baseline-travis"
-    },
-    {
-      "name": "repo-baseline-david-dm"
-    },
-    {
-      "name": "repo-baseline-semantic-release"
-    }
-  ],
-  "author": "",
+  "author": {
+    "name": "Oliver Lorenz",
+    "email": "mail@oliverlorenz.com",
+    "url": "https://oliverlorenz.com"
+  },
   "license": "ISC",
   "devDependencies": {
-    "repo-baseline-codeclimate-badges": "^1.0.5",
-    "repo-baseline-david-dm": "^1.0.2",
+    "repo-baseline-codeclimate-badges": "^1.1.0",
+    "repo-baseline-david-dm": "^1.1.0",
+    "repo-baseline-json-check-schema": "^1.0.0",
     "repo-baseline-semantic-release": "0.0.0",
-    "repo-baseline-travis": "^1.0.6",
-    "travis-deploy-once": "^5.0.9",
-    "semantic-release": "^15.10.8"
+    "repo-baseline-travis": "^1.1.0",
+    "semantic-release": "^15.12.0",
+    "travis-deploy-once": "^5.0.9"
   },
   "repository": {
     "type": "git",
