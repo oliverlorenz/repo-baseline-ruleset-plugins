@@ -20,7 +20,7 @@
     "repo-baseline-json-check-schema": "^1.0.0",
     "repo-baseline-semantic-release": "0.0.0",
     "repo-baseline-travis": "^1.1.0",
-    "semantic-release": "^15.12.0",
+    "semantic-release": "^17.0.6",
     "travis-deploy-once": "^5.0.9"
   },
   "repository": {
